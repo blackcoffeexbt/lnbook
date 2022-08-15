@@ -1,12 +1,13 @@
 # Building
 
-Build a epub using asciidoctor-epub3 - https://github.com/asciidoctor/asciidoctor-epub3
+Build an epub using asciidoctor-epub3 - https://github.com/asciidoctor/asciidoctor-epub3
 
 ````
 cat ./*.asciidoc > book.adoc
 asciidoctor-epub3 -D output book.adoc
-Compiled book will be in output/
 ````
+
+The compiled book will be in output/
 
 # Mastering the Lightning Network
 [![Build Status](https://travis-ci.com/lnbook/lnbook.svg?branch=develop)](https://travis-ci.com/lnbook/lnbook)
