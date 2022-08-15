@@ -416,7 +416,7 @@ At each hop, the hop payload appears at the beginning of the onion payload, foll
 
 [TIP]
 ====
-The onion payload is 1,300 bytes. Each hop payload is 65 bytes or less (padded to 65 bytes if less). So the total onion payload can fit 20 hop payloads (1300 = 20 &times; 65). The maximum onion routed path is therefore 20 hops.
+The onion payload is 1,300 bytes. Each hop payload is 65 bytes or less (padded to 65 bytes if less). So the total onion payload can fit 20 hop payloads (1300 = 20 x 65). The maximum onion routed path is therefore 20 hops.
 ====
 
 As each layer is "peeled off," more filler data (essentially junk) is added at the end of the onion payload so the next hop gets an onion of the same size and is once again the "first hop" in the onion.
